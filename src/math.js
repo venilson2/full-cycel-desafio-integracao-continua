@@ -26,7 +26,6 @@ function addThirty(number) {
 function calculateExpression(expression) {
     return eval(expression);
 }
-//COMENTARIO
 module.exports = {
     sum,
     sub,
