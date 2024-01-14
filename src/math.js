@@ -23,10 +23,6 @@ function addThirty(number) {
     return number + 30;
 }
 
-function calculateExpression(expression) {
-    return eval(expression);
-}
-
 module.exports = {
     sum,
     sub,
@@ -34,5 +30,4 @@ module.exports = {
     addTen,
     addTwenty,
     addThirty,
-    calculateExpression
 }

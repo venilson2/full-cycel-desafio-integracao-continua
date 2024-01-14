@@ -1,4 +1,4 @@
-const { sum, sub, multiple, calculateExpression, addTen, addTwenty, addThirty } = require('./math');
+const { sum, sub, multiple, addTen, addTwenty, addThirty } = require('./math');
 
 test('adds 1 + 2 to equal 3', () => {
     expect(sum(1, 2)).toBe(3);
@@ -15,10 +15,6 @@ test('subtracts 1 - 2 to equal -1', () => {
 test('multiplies 2 * 2 to equal 4', () => {
     expect(multiple(2, 2)).toBe(4);
 })
-
-test('evaluating a valid expression "2 + 2" returns 4', () => {
-    expect(calculateExpression('2 + 2')).toBe(4);
-});
 
 test('add 10 to 5 gives 15', () => {
     expect(addTen(5)).toBe(15);
